@@ -6,6 +6,8 @@ create table tbl_member (
 	road_addr varchar(1000),
 	detail_addr varchar(1000),
 	regdate datetime default now()
+
+	
 );
 
 SELECT * FROM tbl_member tm;

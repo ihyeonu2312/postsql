@@ -1,0 +1,6 @@
+-- SAMPLE 계정 생성
+CREATE USER SAMPLE IDENTIFIED BY 1234;
+-- 권한 부여 (접속, 자원접근)
+GRANT CONNECT, RESOURCE TO SAMPLE;
+-- HR 초기 상태 lock -> unlock / pw 변경 (교육용 계정)
+ALTER USER HR IDENTIFIED BY 1234 ACCOUNT UNLOCK;
